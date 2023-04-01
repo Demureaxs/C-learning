@@ -1,6 +1,6 @@
 namespace ConsoleApp1;
 
-public class Excercizes
+public abstract class Excercizes
 {
     public static void app()
     {
@@ -8,12 +8,15 @@ public class Excercizes
         // IsConsecutive.CheckIfConsec();
         
         Console.WriteLine($"-----------Exercise 2---------");
-        // CheckForDuplicates.GetNumbers();
         
+        // CheckForDuplicates.GetNumbers();
         Console.WriteLine($"-----------Exercise 3---------");
         // ValidateTime.getAndValidate();
         
         Console.WriteLine($"-----------Exercise 4---------");
-        PascalMe.PascalMeNow();
+        // PascalMe.PascalMeNow();
+        
+        Console.WriteLine($"-----------Exercise 4---------");
+        // EnglishWord.VowelCounter();
     }
 }
