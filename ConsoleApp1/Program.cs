@@ -7,6 +7,7 @@ using System.Linq;
 using ConsoleApp1.Dates_and_time;
 using ConsoleApp1.Math;
 using ConsoleApp1.Section_4_Arrays;
+using ConsoleApp1.WorkingWithFiles;
 
 namespace ConsoleApp1;
 
@@ -56,18 +57,21 @@ public static class Program
         // var numberGame = new NumberGame();
         // numberGame.PlayGame();
 
-        // Console.WriteLine($"---------------------Program 4--------------------");
+        // Console.WriteLine($"---------------------Program 5--------------------");
         // var addNumbers = new numberMachine();
         // addNumbers.UnlockTheForce();
 
-        // Console.WriteLine($"---------------------Program 5--------------------");
+        // Console.WriteLine($"---------------------Program 6--------------------");
         // Arrays1.Application();
 
-        // Console.WriteLine($"---------------------Program 5--------------------");
+        // Console.WriteLine($"---------------------Program 7--------------------");
         // DatesAndTimes.Application();
 
-        Console.WriteLine($"---------------------Program 6--------------------");
-        Strings1.Application();
+        // Console.WriteLine($"---------------------Program 8--------------------");
+        // Strings1.Application();
+        
+        Console.WriteLine($"---------------------Program 9--------------------");
+        FilesAndDirectories.app();
     }
 }
 
